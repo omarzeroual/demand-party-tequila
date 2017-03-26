@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+ 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+
+<body ng-app="dptApp">
+    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="text-center">
+                <h1>DPT - Expense Manager</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#add">Add Expense</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-8" id="main">
+            
+            <div class="ng-view"></div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="cols-xs-12 text-center">
+            <h4>Footer</h4>
+        </div>
+    </div>
+</div>    
+
+<script src="script.js"></script>
+    
+</body>
+
+</html>
